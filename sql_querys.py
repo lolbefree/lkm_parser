@@ -1,0 +1,2 @@
+def insert_into_invt1(inventory_list_number, code, count, SUPLNO, STOCKID):
+    return f"""update INVTS01 set INVFIG={count} where invtno='{inventory_list_number}' and ITEMNO='{code}' and SUPLNO='{SUPLNO}' and STOCKID='{STOCKID}'"""
