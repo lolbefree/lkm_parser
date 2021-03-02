@@ -79,11 +79,7 @@ class SpareParts(QtWidgets.QMainWindow):
         self.create_lists(self.ui.provider.text()[:1], self.ui.provider.text()[1:], self.provider_list)
         self.create_lists(self.ui.stockid.text()[:1], self.ui.stockid.text()[1:], self.STOCKID_list)
 
-        # self.code_list.append(self.ui.lineEdit.text())
-        # self.count_list.append(self.ui.lineEdit_3.text())
-        # row_num = int(row_num) + 1
 
-        # print(self.code_list, "\n", self.count_list, "\n", self.provider_list)
 
 
 def main():
